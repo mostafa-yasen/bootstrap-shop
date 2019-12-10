@@ -39,3 +39,21 @@ body {
 #header ul li:hover {
     border-bottom: 1px solid snow;
 }
+
+/* Start Menu Styles */
+#menu .menu-btn {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    width: 30%;
+    transition: .3s ease-in-out;
+}
+
+#menu .card {
+    border: none
+}
+
+#menu .card .card-header,
+#menu .card .card-footer {
+    background: none;
+    border: none;
+}
