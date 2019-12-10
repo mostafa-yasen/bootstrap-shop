@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +16,35 @@
     <!-- My Styles -->
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
-    <h1 class="text-center">
-        Hello World <i class="fas fa-home"></i>
-    </h1>
-
+    <div class="container p-0 bg-light">
+        <!-- Start Header -->
+        <div id="header">
+            <div id="my-navbar">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="p-3 logo d-flex">
+                            <img class="logo-img" src="images/simple-house-logo.png" alt="Image Not Found">
+                            <span class="text-light logo-text ml-3">
+                                <h3 class="m-0">Bootstrap Tutorial</h3>
+                                <h6 class="m-0">Test Text</h6>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-light">
+                        <ul class="p-3 m-0 h-100 list-unstyled list-inline text-right">
+                            <li class="list-inline-item ml-3 p-2 mt-3 active">Home</li>
+                            <li class="list-inline-item ml-3 p-2 mt-3">About</li>
+                            <li class="list-inline-item ml-3 p-2 mt-3">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header -->
+    </div>
 
     <!-- Fontawesome -->
     <script src="js/all.min.js"></script>
@@ -30,11 +54,12 @@
 
     <!-- Jquery -->
     <script src="js/jquery-3.4.1.min.js"></script>
-    
+
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- My Script -->
     <script src="js/app.js"></script>
 </body>
+
 </html>
